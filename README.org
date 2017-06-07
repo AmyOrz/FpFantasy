@@ -1,0 +1,1 @@
+Fantasy-Land compatible types for easy integration with Wonder.js

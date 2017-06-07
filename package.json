@@ -1,0 +1,54 @@
+{
+  "name": "wonder-fantasy-land",
+  "version": "0.1.0",
+  "authors": "Yuanchao Yang <395976266@qq.com>",
+  "description": "Fantasy-Land compatible types for easy integration with Wonder.js",
+  "homepage": "https://github.com/yyc-git/Wonder-Fantasy-Land.js",
+  "license": "MIT",
+  "main": "./dist/wdfl.js",
+  "types": "./dist/wdfl.es2015.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "automock": false,
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "setupTestFrameworkScriptFile": "<rootDir>/test/helper/jest/specHelper.js",
+    "testMatch": [
+      "<rootDir>/test/unit/**/*Spec.ts"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "tsx"
+    ]
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.0",
+    "gulp-sync": "^0.1.4",
+    "jest": "^19.0.2",
+    "jsverify": "^0.8.2",
+    "regenerator-runtime": "^0.10.3",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "sinon": "^2.1.0",
+    "ts-jest": "^19.0.10",
+    "typescript": "^2.3.0-dev.20170224",
+    "wonder-package": "^0.1.26",
+    "wonder-rollup-plugin-typescript": "^0.1.1",
+    "wonder-tool-generate_es2015_index": "^0.1.2"
+  },
+  "dependencies": {
+    "@types/jquery": "^2.0.46",
+    "@types/jsdom": "^11.0.0",
+    "@types/ramda": "github:types/npm-ramda",
+    "jquery": "^3.2.1",
+    "jquery-ts": "^2.1.1",
+    "jsdom": "^11.0.0",
+    "ramda-ts": "^0.1.2",
+    "wonder-lodash": "^0.1.2"
+  }
+}

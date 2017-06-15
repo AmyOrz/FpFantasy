@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
+    "module": "es2015",
     "allowSyntheticDefaultImports": false,
     "moduleResolution": "Node",
     "noImplicitAny": false,
     "sourceMap": true,
-    "outDir": "../dist/commonjs",
+    "outDir": "../dist/es2015",
     "declaration": true,
     "noEmitOnError": true,
     "removeComments": true,
@@ -14,5 +14,8 @@
   },
   "files": [
     "./index.ts"
+  ],
+  "exclude": [
+    "node_modules/rxjs"
   ]
 }

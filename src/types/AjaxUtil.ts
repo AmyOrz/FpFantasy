@@ -16,8 +16,6 @@ export class AjaxUtil {
     }
     private _jsonp(params) {
 
-        //创建script标签并加入到页面中
-
         var callbackName = params.jsonp;
 
         var head = document.getElementsByTagName('head')[0];

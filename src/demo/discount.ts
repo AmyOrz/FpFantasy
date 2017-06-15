@@ -46,4 +46,4 @@ export class discount{
     }
 }
 var a = new discount();
-a.run();
+// a.run();

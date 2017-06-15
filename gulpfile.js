@@ -50,7 +50,7 @@ gulp.task("compileTsES2015", function(done) {
     compileTs.compileTsES2015(path.join(process.cwd(), tsconfigFile), {
         sourceDir: tsFileDir,
         cwd:"/",
-        targetDir:path.join(distPath, "./es2015/")
+        targetDir:path.join(distPath, "./es2015/"),
     }, done);
 });
 

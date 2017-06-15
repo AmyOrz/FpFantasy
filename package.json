@@ -49,6 +49,8 @@
     "jquery-ts": "^2.1.1",
     "jsdom": "^11.0.0",
     "ramda-ts": "^0.1.2",
+    "rxjs": "^5.4.0",
+    "wonder-frp": "^0.1.17",
     "wonder-lodash": "^0.1.2"
   }
 }

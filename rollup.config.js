@@ -16,6 +16,12 @@ export default {
             extensions: [".js", ".ts"]
         }),
         commonjs({
+            namedExports: {
+                // "./node_modules/bowser/src/bowser.js": ["version", "chrome","msie", "firefox", "mobile"],
+                // "./node_modules/wonder-expect.js/index.js": ["expect"],
+                "./node_modules/rsvp/dist/rsvp.js": ["Promise"]
+            },
+            extensions: [".js", ".ts"]
         })
     ],
     targets: [
